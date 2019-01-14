@@ -13,8 +13,7 @@ or
 ## Usage
 
 ```js
-import getSchemaFromData from 'graphql-schema-from-json';
-import { printSchema } from 'graphql';
+import { getSchemaFromData, printSchema } from 'graphql-schema-from-json';
 
 const data = {
     posts: [
