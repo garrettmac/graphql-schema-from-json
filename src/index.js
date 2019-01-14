@@ -2,8 +2,7 @@ export * from './nameConverter';
 import isRelationshipFieldImport from './isRelationshipField';
 
 export const isRelationshipField = isRelationshipFieldImport;
-import getSchemaFromDataImport from './getSchemaFromData';
-import * as graphql from 'graphql/utilities';
+//import * as graphql from 'graphql/utilities';
+import getSchemaFromData from './getSchemaFromData';
 
-export const getSchemaFromData = getSchemaFromDataImport;
-export const printSchema = graphql.printSchema;
+export default getSchemaFromData;
